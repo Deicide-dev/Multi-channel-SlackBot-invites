@@ -1,27 +1,5 @@
 # Multi-channel-SlackBot-invites
 
-To create a bot in Slack, follow these steps:
-
-
-Log in to your Slack workspace.
-
-Navigate to the Slack API homepage: https://api.slack.com/
-
-Click on the "Create a Slack App" button in the top right corner of the page.
-
-Give your app a name and choose the workspace where you want to install it.
-
-Navigate to the "Bot Users" section of the app dashboard and click on the "Add a Bot User" button. Give your bot a name and click "Add Bot User".
-
-In the "Install App" section of the app dashboard, click on the "Install App" button to install the app in your workspace.
-
-Note down the "Bot User OAuth Access Token" - this is the token you'll use to authenticate your bot.
-
-Finally, navigate to the "Event Subscriptions" section of the app dashboard, and toggle the "Enable Events" switch to "On". Enter the request URL for your bot in the "Request URL" field. This is the URL where your bot will receive events from Slack.
-
-That's it! Your bot is now ready to use. You can start building it by writing a script that uses the Slack API to send and receive messages.
-
-
 
 This code is an example of a Python script that adds the same list of email addresses to multiple Slack channels. Here is how the code works:
 
